@@ -1,8 +1,8 @@
-chislo1 = 0
-chislo2 = 1
-vvod = int(input("Введите номер последнего элемента числа Фибаначчи: "))
-for i in range(vvod):
-    sum= chislo1 + chislo2
-    chislo1 = chislo2
-    chislo2 = sum
-print("Ответ =",chislo1)
+num1 = 0
+num2 = 1
+vvodish = int(input("Введите номер последнего элемента числа Фибаначчи: "))
+for i in range(vvodish):
+    sum = num1 + num2
+    num1 = num2
+    num2 = sum
+print("Ответ = ", num1)
